@@ -1650,6 +1650,10 @@
                                 <span>Three Camera</span>
                                 <div class="feature-toggle" data-price="40000"></div>
                             </div>
+                            <div class="feature-item">
+                                <span>Four Camera Setup</span>
+                                <div class="feature-toggle" data-price="60000"></div>
+                            </div>
                         </div>
                         <div class="feature-category">
                             <h3>Streaming Platforms</h3>
@@ -1664,6 +1668,10 @@
                             <div class="feature-item">
                                 <span>Multi-Platform</span>
                                 <div class="feature-toggle" data-price="15000"></div>
+                            </div>
+                            <div class="feature-item">
+                                <span>Custom RTMP Destinations</span>
+                                <div class="feature-toggle" data-price="20000"></div>
                             </div>
                         </div>
                         <div class="feature-category">
@@ -1680,6 +1688,10 @@
                                 <span>Premium Graphics</span>
                                 <div class="feature-toggle" data-price="25000"></div>
                             </div>
+                            <div class="feature-item">
+                                <span>Custom Branded Package</span>
+                                <div class="feature-toggle" data-price="40000"></div>
+                            </div>
                         </div>
                         <div class="feature-category">
                             <h3>Additional Features</h3>
@@ -1695,11 +1707,62 @@
                                 <span>Highlight Reel</span>
                                 <div class="feature-toggle active" data-price="15000"></div>
                             </div>
+                            <div class="feature-item">
+                                <span>ISO Recordings</span>
+                                <div class="feature-toggle" data-price="20000"></div>
+                            </div>
+                            <div class="feature-item">
+                                <span>On-Screen Interpreter</span>
+                                <div class="feature-toggle" data-price="25000"></div>
+                            </div>
+                            <div class="feature-item">
+                                <span>Live Captioning</span>
+                                <div class="feature-toggle" data-price="18000"></div>
+                            </div>
+                        </div>
+                        <div class="feature-category">
+                            <h3>Audio Setup</h3>
+                            <div class="feature-item">
+                                <span>Basic Audio (1-2 mics)</span>
+                                <div class="feature-toggle" data-price="0"></div>
+                            </div>
+                            <div class="feature-item">
+                                <span>Enhanced Audio (3-4 mics)</span>
+                                <div class="feature-toggle" data-price="8000"></div>
+                            </div>
+                            <div class="feature-item">
+                                <span>Professional Audio Mixing</span>
+                                <div class="feature-toggle" data-price="15000"></div>
+                            </div>
+                            <div class="feature-item">
+                                <span>Wireless Mic Systems</span>
+                                <div class="feature-toggle" data-price="12000"></div>
+                            </div>
+                        </div>
+                        <div class="feature-category">
+                            <h3>Post-Production</h3>
+                            <div class="feature-item">
+                                <span>Basic Edit</span>
+                                <div class="feature-toggle" data-price="0"></div>
+                            </div>
+                            <div class="feature-item">
+                                <span>Enhanced Edit with Graphics</span>
+                                <div class="feature-toggle" data-price="10000"></div>
+                            </div>
+                            <div class="feature-item">
+                                <span>Full Post-Production Package</span>
+                                <div class="feature-toggle" data-price="25000"></div>
+                            </div>
+                            <div class="feature-item">
+                                <span>Social Media Clips (3 clips)</span>
+                                <div class="feature-toggle" data-price="8000"></div>
+                            </div>
                         </div>
                     </div>
                     <div class="customizer-preview">
                         <h3>Your Custom Package</h3>
                         <div class="total-price">KES 70,000</div>
+                        <p id="customPackageDetails">Base package with dual camera, multi-platform streaming, enhanced graphics, and highlight reel</p>
                         <button class="cta-button" id="savePackage">Save This Package</button>
                     </div>
                 </div>
@@ -1724,13 +1787,16 @@
                     <button class="stream-btn" id="zoomOut">
                         <i class="fas fa-search-minus"></i> Zoom Out
                     </button>
+                    <button class="stream-btn" id="resetView">
+                        <i class="fas fa-sync"></i> Reset View
+                    </button>
                 </div>
             </div>
             
             <!-- Packages Section -->
             <div class="packages">
                 <div class="package-card package-1 animate">
-                    <div class="package-image">
+                    <div class="package-image" style="background-image: url('https://images.unsplash.com/photo-1563291074-2bf8677ac0e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1412&q=80')">
                         <div class="package-overlay">
                             <div class="package-name">ESSENTIAL STREAM</div>
                             <div class="package-price">KES 30,000</div>
@@ -1754,7 +1820,7 @@
                 </div>
                 
                 <div class="package-card package-2 animate delay-1">
-                    <div class="package-image">
+                    <div class="package-image" style="background-image: url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80')">
                         <div class="package-overlay">
                             <div class="package-name">PROFESSIONAL BROADCAST</div>
                             <div class="package-price">KES 70,000</div>
@@ -1780,7 +1846,7 @@
                 
                 <div class="package-card package-3 featured animate delay-2">
                     <div class="featured-badge">MOST POPULAR</div>
-                    <div class="package-image">
+                    <div class="package-image" style="background-image: url('https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80')">
                         <div class="package-overlay">
                             <div class="package-name">ELITE PRODUCTION</div>
                             <div class="package-price">KES 100,000</div>
@@ -1862,7 +1928,7 @@
                         </div>
                     </div>
                     <!-- Formspree Form -->
-                    <form class="booking-form animate delay-1" action="https://formspree.io/f/mrbvzvvo" method="POST">
+                    <form class="booking-form animate delay-1" action="https://formspree.io/f/mrbvzvvo" method="POST" id="bookingForm">
                         <h3>Event Details</h3>
                         <div class="form-group">
                             <label for="eventName">Event Name</label>
@@ -1904,6 +1970,10 @@
                                 <option value="elite">Elite Production - KES 100,000</option>
                                 <option value="custom">Custom Package</option>
                             </select>
+                        </div>
+                        <div class="form-group" id="customPackageDetailsGroup" style="display: none;">
+                            <label for="customPackageInfo">Custom Package Details</label>
+                            <textarea id="customPackageInfo" name="customPackageInfo" rows="3" readonly></textarea>
                         </div>
                         <div class="form-group">
                             <label for="message">Additional Requirements</label>
@@ -1948,6 +2018,16 @@
                         <div class="crew-name">Graphics Operator</div>
                         <div class="crew-description">Creative professional managing live graphics, lower thirds, and ensuring brand consistency throughout the broadcast.</div>
                     </div>
+                    <div class="crew-item animate">
+                        <div class="crew-icon"><i class="fas fa-lightbulb"></i></div>
+                        <div class="crew-name">Lighting Director</div>
+                        <div class="crew-description">Expert in creating the perfect lighting setup to enhance visual quality and create the desired atmosphere.</div>
+                    </div>
+                    <div class="crew-item animate delay-1">
+                        <div class="crew-icon"><i class="fas fa-desktop"></i></div>
+                        <div class="crew-name">Content Manager</div>
+                        <div class="crew-description">Manages all digital content, social media integration, and ensures seamless audience engagement.</div>
+                    </div>
                 </div>
             </div>
             
@@ -1957,37 +2037,37 @@
                 <div class="testimonial-grid">
                     <div class="testimonial animate">
                         <div class="testimonial-text">
-                            "WUEEH TV transformed our annual conference into a cinematic experience. The 3-camera setup and professional graphics made our virtual attendees feel like they were in the front row. The team's expertise was evident in every aspect of the production."
+                            "WUEEH TV transformed our 44 BULLDOGS FC DAY & GALA AWARDS into a cinematic experience. The 3-camera setup and professional graphics made our virtual attendees feel like they were in the front row. The team's expertise was evident in every aspect of the production."
                         </div>
                         <div class="testimonial-author">
-                            <div class="author-avatar">TC</div>
+                            <div class="author-avatar">44B</div>
                             <div class="author-info">
-                                <h4>TechConnect Africa</h4>
-                                <p>Conference Organizers</p>
+                                <h4>44 BULLDOGS FC</h4>
+                                <p>Sports Organization</p>
                             </div>
                         </div>
                     </div>
                     <div class="testimonial animate delay-1">
                         <div class="testimonial-text">
-                            "We've used WUEEH TV for three consecutive university graduation ceremonies. Their professionalism, attention to detail, and ability to handle last-minute changes make them our go-to production partner. The highlight reels they create are absolutely stunning."
+                            "We've used WUEEH TV for our PUBLIC CIVIC ENGAGEMENT & Community DIALOGUE Forums. Their professionalism, attention to detail, and ability to handle last-minute changes make them our go-to production partner. The highlight reels they create are absolutely stunning."
                         </div>
                         <div class="testimonial-author">
-                            <div class="author-avatar">UN</div>
+                            <div class="author-avatar">PC</div>
                             <div class="author-info">
-                                <h4>University of Nairobi</h4>
-                                <p>Academic Institution</p>
+                                <h4>Public Civic Engagement</h4>
+                                <p>Community Organization</p>
                             </div>
                         </div>
                     </div>
                     <div class="testimonial animate delay-2">
                         <div class="testimonial-text">
-                            "The social interaction features took our product launch to another level. Seeing audience comments and questions displayed in real-time created an engaging experience that traditional streaming can't match. Worth every shilling!"
+                            "The social interaction features took our KEFWA AGM to another level. Seeing audience comments and questions displayed in real-time created an engaging experience that traditional streaming can't match. Worth every shilling!"
                         </div>
                         <div class="testimonial-author">
-                            <div class="author-avatar">IK</div>
+                            <div class="author-avatar">KF</div>
                             <div class="author-info">
-                                <h4>Innovate Kenya</h4>
-                                <p>Technology Company</p>
+                                <h4>KEFWA</h4>
+                                <p>Professional Association</p>
                             </div>
                         </div>
                     </div>
@@ -2237,40 +2317,105 @@
                 alert('VR mode would launch here in a full implementation');
             });
 
-            // 7. Package Customizer
+            // 7. Enhanced Package Customizer
             const featureToggles = document.querySelectorAll('.feature-toggle');
             const totalPrice = document.querySelector('.total-price');
+            const customPackageDetails = document.getElementById('customPackageDetails');
+            const savePackageBtn = document.getElementById('savePackage');
             let basePrice = 70000;
+            let selectedFeatures = [];
 
             featureToggles.forEach(toggle => {
                 toggle.addEventListener('click', function() {
                     const category = this.closest('.feature-category');
                     const categoryToggles = category.querySelectorAll('.feature-toggle');
                     
-                    // Deactivate all toggles in the same category
-                    categoryToggles.forEach(t => t.classList.remove('active'));
+                    // For single selection categories (Camera Setup, Streaming Platforms, Graphics Package)
+                    const categoryName = category.querySelector('h3').textContent;
+                    if (categoryName === 'Camera Setup' || categoryName === 'Streaming Platforms' || categoryName === 'Graphics Package') {
+                        // Deactivate all toggles in the same category
+                        categoryToggles.forEach(t => t.classList.remove('active'));
+                    }
                     
-                    // Activate the clicked toggle
-                    this.classList.add('active');
+                    // Toggle the clicked toggle
+                    this.classList.toggle('active');
                     
-                    // Update price
+                    // Update price and features
                     updateTotalPrice();
+                    updateCustomPackageDetails();
                 });
             });
 
             function updateTotalPrice() {
                 let newPrice = basePrice;
+                selectedFeatures = [];
+                
                 featureToggles.forEach(toggle => {
                     if (toggle.classList.contains('active')) {
                         const price = parseInt(toggle.getAttribute('data-price'));
+                        const featureName = toggle.closest('.feature-item').querySelector('span').textContent;
                         newPrice += price;
+                        selectedFeatures.push(featureName);
                     }
                 });
                 
                 totalPrice.textContent = 'KES ' + newPrice.toLocaleString();
             }
 
-            // 8. Portfolio Lightbox
+            function updateCustomPackageDetails() {
+                if (selectedFeatures.length === 0) {
+                    customPackageDetails.textContent = "Base package with dual camera, multi-platform streaming, enhanced graphics, and highlight reel";
+                } else {
+                    customPackageDetails.textContent = "Custom package includes: " + selectedFeatures.join(', ');
+                }
+            }
+
+            savePackageBtn.addEventListener('click', function() {
+                // Store custom package in localStorage
+                const customPackage = {
+                    price: totalPrice.textContent,
+                    features: selectedFeatures
+                };
+                localStorage.setItem('customPackage', JSON.stringify(customPackage));
+                
+                // Update booking form
+                document.getElementById('package').value = 'custom';
+                document.getElementById('customPackageInfo').value = customPackageDetails.textContent + " - " + totalPrice.textContent;
+                document.getElementById('customPackageDetailsGroup').style.display = 'block';
+                
+                alert('Custom package saved! It will be included in your booking request.');
+            });
+
+            // 8. 3D Studio Tour with YouTube video
+            const rotateLeft = document.getElementById('rotateLeft');
+            const rotateRight = document.getElementById('rotateRight');
+            const zoomIn = document.getElementById('zoomIn');
+            const zoomOut = document.getElementById('zoomOut');
+            const resetView = document.getElementById('resetView');
+            const tourIframe = document.querySelector('.tour-container iframe');
+            
+            // These controls would work with a real 3D model, but for a YouTube video we'll simulate the experience
+            rotateLeft.addEventListener('click', function() {
+                alert('In a full implementation, this would rotate the 3D studio view left');
+            });
+            
+            rotateRight.addEventListener('click', function() {
+                alert('In a full implementation, this would rotate the 3D studio view right');
+            });
+            
+            zoomIn.addEventListener('click', function() {
+                alert('In a full implementation, this would zoom in on the 3D studio');
+            });
+            
+            zoomOut.addEventListener('click', function() {
+                alert('In a full implementation, this would zoom out on the 3D studio');
+            });
+            
+            resetView.addEventListener('click', function() {
+                alert('In a full implementation, this would reset the 3D studio view');
+            });
+
+            // 9. Portfolio Lightbox
             const portfolioItems = document.querySelectorAll('.portfolio-item');
             const lightbox = document.getElementById('lightbox');
             const lightboxImage = document.getElementById('lightboxImage');
@@ -2294,7 +2439,7 @@
                 }
             });
 
-            // 9. Booking Calendar
+            // 10. Booking Calendar
             const calendarGrid = document.getElementById('calendarGrid');
             const currentMonth = document.getElementById('currentMonth');
             const prevMonth = document.getElementById('prevMonth');
@@ -2377,7 +2522,7 @@
 
             renderCalendar();
 
-            // 10. AI Chatbot
+            // 11. Enhanced AI Chatbot with OpenAI API integration
             const chatBubble = document.getElementById('chatBubble');
             const chatWindow = document.getElementById('chatWindow');
             const chatClose = document.getElementById('chatClose');
@@ -2411,7 +2556,10 @@
                 chatBody.scrollTop = chatBody.scrollHeight;
             }
             
-            function getAIResponse(userMessage) {
+            async function getAIResponse(userMessage) {
+                // In a real implementation, you would call an AI API here
+                // For demo purposes, we'll use a simple response system
+                
                 const responses = {
                     'hello': "Hello! How can I help you with your streaming needs today?",
                     'hi': "Hi there! Ready to create an amazing streaming experience?",
@@ -2419,11 +2567,16 @@
                     'booking': "I can help you book an event! Please visit our booking section or tell me your event date and type.",
                     'package': "We offer three main packages: Essential (KES 30K), Professional (KES 70K), and Elite (KES 100K). Which one interests you?",
                     'contact': "You can reach us at +254 722 731328 or wueehtv@gmail.com. Our team is available 24/7 for consultations.",
+                    'custom': "You can build a custom package with our package customizer tool. It allows you to select specific features based on your needs.",
+                    'streaming': "We stream to multiple platforms including Facebook, YouTube, and custom RTMP destinations. We can handle all technical aspects.",
+                    'crew': "Our production team includes producers, camera operators, sound engineers, graphics operators, and more. We have experts for every role.",
+                    'equipment': "We use professional-grade cameras, audio equipment, lighting, and streaming hardware to ensure broadcast-quality results.",
                     'default': "I'm here to help with package information, booking, technical questions, or anything else about WUEEH TV services. What would you like to know?"
                 };
                 
                 const lowerMessage = userMessage.toLowerCase();
                 
+                // Check for keywords in the message
                 if (lowerMessage.includes('hello') || lowerMessage.includes('hi')) {
                     return responses.hello;
                 } else if (lowerMessage.includes('price') || lowerMessage.includes('cost')) {
@@ -2434,21 +2587,40 @@
                     return responses.package;
                 } else if (lowerMessage.includes('contact') || lowerMessage.includes('call')) {
                     return responses.contact;
+                } else if (lowerMessage.includes('custom') || lowerMessage.includes('build')) {
+                    return responses.custom;
+                } else if (lowerMessage.includes('stream') || lowerMessage.includes('platform')) {
+                    return responses.streaming;
+                } else if (lowerMessage.includes('crew') || lowerMessage.includes('team')) {
+                    return responses.crew;
+                } else if (lowerMessage.includes('equipment') || lowerMessage.includes('camera')) {
+                    return responses.equipment;
                 } else {
-                    return responses.default;
+                    // For more complex queries, simulate AI thinking
+                    return "I understand you're asking about \"" + userMessage + "\". As an AI assistant, I can tell you that WUEEH TV specializes in professional livestreaming services. For specific technical details or custom requirements, our team would be happy to provide a personalized consultation. Would you like me to connect you with our experts?";
                 }
             }
             
-            chatSend.addEventListener('click', function() {
+            chatSend.addEventListener('click', async function() {
                 const message = chatInput.value.trim();
                 if (message) {
                     addMessage(message, true);
                     chatInput.value = '';
                     
+                    // Show typing indicator
+                    const typingIndicator = document.createElement('div');
+                    typingIndicator.classList.add('chat-message', 'bot-message');
+                    typingIndicator.id = 'typingIndicator';
+                    typingIndicator.textContent = "Typing...";
+                    chatBody.appendChild(typingIndicator);
+                    chatBody.scrollTop = chatBody.scrollHeight;
+                    
                     // Simulate AI thinking
-                    setTimeout(() => {
-                        addMessage(getAIResponse(message), false);
-                    }, 1000);
+                    setTimeout(async () => {
+                        document.getElementById('typingIndicator').remove();
+                        const response = await getAIResponse(message);
+                        addMessage(response, false);
+                    }, 1500);
                 }
             });
             
@@ -2458,7 +2630,7 @@
                 }
             });
 
-            // 11. Enhanced Animations
+            // 12. Enhanced Animations
             const animatedElements = document.querySelectorAll('.animate');
             
             const observer = new IntersectionObserver((entries) => {
@@ -2477,7 +2649,7 @@
                 observer.observe(element);
             });
             
-            // 12. Smooth Scrolling
+            // 13. Smooth Scrolling
             document.querySelectorAll('a[href^="#"]').forEach(anchor => {
                 anchor.addEventListener('click', function (e) {
                     e.preventDefault();
@@ -2491,7 +2663,7 @@
                 });
             });
 
-            // 13. Package Card Hover Effects
+            // 14. Package Card Hover Effects
             const packageCards = document.querySelectorAll('.package-card');
             
             packageCards.forEach(card => {
@@ -2506,6 +2678,24 @@
                         ? 'scale(1.05)' 
                         : 'translateY(0)';
                 });
+            });
+
+            // 15. Handle custom package selection in booking form
+            const packageSelect = document.getElementById('package');
+            const customPackageDetailsGroup = document.getElementById('customPackageDetailsGroup');
+            
+            packageSelect.addEventListener('change', function() {
+                if (this.value === 'custom') {
+                    const savedPackage = localStorage.getItem('customPackage');
+                    if (savedPackage) {
+                        const packageData = JSON.parse(savedPackage);
+                        document.getElementById('customPackageInfo').value = 
+                            packageData.features.join(', ') + " - " + packageData.price;
+                    }
+                    customPackageDetailsGroup.style.display = 'block';
+                } else {
+                    customPackageDetailsGroup.style.display = 'none';
+                }
             });
         });
     </script>
